@@ -165,9 +165,19 @@ footer {
 }
 
 @media (max-width: 700px) {
+  .descricao {
+    text-align: left;
+    justify-items: start;
+  }
+
+  /* .descricao p {
+    max-width: 50ch;
+  } */
+
   /* alteracao da margem */
   h3 {
     margin: 5rem 0;
+    font-size: 3rem;
   }
 
   /* alteracao do gap */
@@ -190,5 +200,15 @@ footer {
 @media (max-width: 900px) {
   article.fundo_claro.descricao h1::after {
     display: none;
+  }
+}
+
+@media (max-width: 400px) {
+  h3 {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 1rem;
   }
 }
